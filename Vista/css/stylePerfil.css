@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Fondo claro */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar contenedor */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.titulo {
+    text-align: center; /* Centrar título */
+    font-size: 40px; /* Tamaño del título */
+    color: #0896d8; /* Color del título */
+}
+
+.perfil {
+    margin-top: 20px; /* Espacio superior */
+}
+
+.campo {
+    display: flex; /* Disposición en fila */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Alinear elementos verticalmente */
+    padding: 20px; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+}
+
+.etiqueta {
+    font-weight: bold; /* Etiquetas en negrita */
+    font-size: 20px; /* Tamaño del título */
+}
+
+.valor {
+    font-size: 15px; /* Tamaño del valor */
+}
+
+input.valor {
+    border: none; /* Sin borde */
+    background: transparent; /* Fondo transparente */
+    width: 6.5%; /* Ocupa todo el ancho */
+    font-size: 20px; /* Tamaño del valor */
+}
+
+.btn-contenedor {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente si es necesario */
+}
+
+.btn-editar {
+    margin-top: 30px; /* Espacio superior para el botón */
+    padding: 10px 20px; /* Espaciado del botón */
+    background-color: #06c8e1; /* Fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo puntero */
+    font-size: 16px; /* Tamaño del texto del botón */
+}
+
+
+.btn-editar:hover {
+    background-color: #06d75d; /* Color de fondo al pasar el mouse */
+}
